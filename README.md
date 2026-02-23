@@ -16,7 +16,7 @@ This repository contains the Python implementation of **Algorithm 1** from the p
 1. Clone the repository:
    ```bash
    git clone [https://github.com/mathsmohanraj/graph-bundle-coloring.git]
-   ## 📝 Notes
+## 📝 Notes
 - The current implementation uses \(P_2\) as the fiber graph (which is **Type‑2**) for demonstration.  
   For **Type‑1** fibers (e.g., \(P_3\), \(P_4\)), the total number of colours used by the algorithm will be \(\Delta(G)+1\) exactly as proved in the paper.
 - The implementation follows the constructive proof of Theorem 1 and produces a valid total colouring without incidence conflicts.  
