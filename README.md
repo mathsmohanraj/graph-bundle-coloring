@@ -14,8 +14,9 @@ This repository contains the Python implementation of **Algorithm 1** from the p
 
 ## 🚀 Usage
 1. Clone the repository:
-  ```bash
-   git clone https://github.com/mathsmohanraj/graph-bundle-coloring.gitcd graph-bundle-coloring
+```bash
+   git clone [https://github.com/mathsmohanraj/graph-bundle-coloring.git](https://github.com/mathsmohanraj/graph-bundle-coloring.git)
+   cd graph-bundle-coloring
 
 ## 📝 Notes
 - The current implementation uses \(P_2\) as the fiber graph (which is **Type‑2**) for demonstration.  
