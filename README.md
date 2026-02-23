@@ -1,18 +1,19 @@
 # Graph Bundle Total Coloring
 
-This repository contains the Python implementation of Algorithm 1 from the paper:
+This repository contains the Python implementation of **Algorithm 1** from the paper:
 
-**"Structural Decomposition, Algorithmic Complexity, and Total Coloring of Graph Bundles"**  
-by M. Mohanraj and C. Vimala
+**"Structural Decomposition, Algorithmic Complexity, and Total Coloring of Graph Bundles"** by M. Mohanraj and C. Vimala (IAENG Journal, 2026)
 
-## Files
-- `bundle_coloring.py` - Main implementation of Algorithm 1
-- `experiments.py` - Code to generate Table I and Table II results
+## 📁 Files
+- `bundle_coloring.py` – Main implementation of Algorithm 1 for total coloring of path bundles (P_m \times F).
+- `experiments.py` – Script to reproduce the experimental results shown in **Table I** and **Table II** of the paper.
 
-## Requirements
+## 📦 Requirements
 - Python 3.9 or higher
-- No external dependencies
+- NetworkX (`pip install networkx`)
 
-## Usage
-```bash
-python bundle_coloring.py
+## 🚀 Usage
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/mathsmohanraj/graph-bundle-coloring.git](https://github.com/mathsmohanraj/graph-bundle-coloring.git)
+   cd graph-bundle-coloring
