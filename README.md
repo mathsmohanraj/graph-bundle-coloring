@@ -1,24 +1,17 @@
-# Graph Bundle Total Coloring
+# Structural Decomposition, Algorithmic Complexity, and Total Coloring of Graph Bundles
 
-This repository contains the Python implementation of **Algorithm 1** from the paper:
+**Authors:** M. Mohanraj and C. Vimala  
+*(Supplementary code repository for the manuscript submitted to the IAENG International Journal of Applied Mathematics).*
 
-**"Structural Decomposition, Algorithmic Complexity, and Total Coloring of Graph Bundles"** by M. Mohanraj and C. Vimala (IAENG Journal, 2026)
+---
 
-## 📁 Files
-- `Graph-Bundle-Coloring.py` – Main implementation of Algorithm 1 for total coloring of path bundles (P_m \times F).
-- `experiments.py` – Script to reproduce the experimental results shown in **Table I** and **Table II** of the paper.
+## 📌 Update (June 2026): Major Revisions Added
+Based on the reviewer's feedback, this repository has been significantly upgraded to include:
+* **Large-Scale Scalability Tests:** Added comprehensive benchmarking for massive graph bundle configurations (`P_200 x P_5`, `C_100 x P_4`, `K_1,20 x P_3`).
+* **Statistical Analysis:** Integrated execution time tracking to record the **Mean and Standard Deviation** over 10 independent runs for optimal reliability.
+* **Optimality Gap Metric:** Introduced a mathematical function to explicitly quantify the exact chromatic deviation of traditional heuristics (DSATUR, RLF) from the theoretical Type-1 optimal bound.
 
-## 📦 Requirements
-- Python 3.9 or higher
-- NetworkX (`pip install networkx`)
+---
 
-## 🚀 Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/mathsmohanraj/graph-bundle-coloring.git
-   cd graph-bundle-coloring
-## 📝 Notes
-- The current implementation uses \(P_2\) as the fiber graph (which is **Type‑2**) for demonstration.  
-  For **Type‑1** fibers (e.g., \(P_3\), \(P_4\)), the total number of colours used by the algorithm will be \(\Delta(G)+1\) exactly as proved in the paper.
-- The implementation follows the constructive proof of Theorem 1 and produces a valid total colouring without incidence conflicts.  
-- All colour palettes are defined dynamically based on the maximum degree of the bundle.
+## 🚀 Execution
+The `Graph-Bundle-Coloring.py` file contains the complete benchmarking framework. It simulates the proposed algorithm alongside traditional heuristics to demonstrate zero optimality gap and highly superior time complexity.
